@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string str;char ch;
+    int number;
+    cin>>str;
+    stringstream ss(str);
+
+    while(ss>>number){
+        cout<<number<<endl;
+        ss>>ch;
+
+    }
+
+}
